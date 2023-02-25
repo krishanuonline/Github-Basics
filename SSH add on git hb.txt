@@ -1,0 +1,12 @@
+Windows
+
+1. Open Git Bash.
+
+2. ssh-keygen -t ed25519 -C "your_email@example.com"
+
+3. $ eval "$(ssh-agent -s)"
+
+4. ssh-add ~/.ssh/id_ed25519
+
+5. copy the full directory -> run command and $ cat <full directory>.pub
+{copy and paste to the Add ssh on git hub}

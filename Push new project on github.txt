@@ -1,0 +1,18 @@
+Push new project on git hub :
+
+
+git init
+
+//optional
+git add README.md 
+
+git commit -m "first commit"
+
+//also create new brunch in different name
+git branch -M main  
+
+//ssh
+git remote add origin git@github.com:krishanuonline/Github-Basics.git
+
+//main is basically the name of the branch  
+git push -u origin main  
